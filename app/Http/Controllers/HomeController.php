@@ -8,10 +8,13 @@ use App\Models\Code;
 class HomeController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-        $codes = Code::limit(30)->get();
-        $logoPath = public_path('/images/logo.jpg');
-        return view('home', compact('codes', 'logoPath'));
+        if(isset($request->s)){
+            $serial = $request->s;
+            $code = Code::where('serial', $serial)->first();
+            return view('home', compact('code'));
+        }
+        return view('home');
     }
 }

@@ -15,7 +15,14 @@
 14. Coustom Media Query CSS
 */
 /* ##################### RESET CSS  ##################### */
-
+@font-face {
+	font-family: roboto;
+	src: url('/font/Roboto-Medium.ttf');
+}
+@font-face {
+	font-family: roboto-bold;
+	src: url('/font/Roboto-Bold.ttf');
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,6 +38,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	vertical-align: baseline;
 	background: transparent;
+	font-family: 'roboto', sans-serif;
 }
 img{
 	margin: 0;
@@ -696,6 +704,17 @@ img{
 .single-about.alt{
 	background:#b7d7e3;
 }
-.content{
-	margin: 100px 0;
+
+.code-content table{
+    width: 100%;
+    border: solid 1px silver;
+}
+
+.code-content table tr td{
+	padding: 10px;
+	border: 1px solid silver;
+}
+
+.code-content table tr td .code-info{
+	font-weight: bold;
 }
