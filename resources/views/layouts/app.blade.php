@@ -24,11 +24,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-9 text-center-mob">
-						<div class="logo"><a href="{{asset('/')}}"><img src="/images/logo.png" alt="logo" height="60" style="padding-top: 3px"></a></div>
+						<div class="logo"><a href="{{asset('/')}}"><img src="/images/logo-512x512px.png" alt="logo" height="60" style="padding-top: 3px"></a></div>
 							
 					</div>
 					<div class="col-sm-2 text-end text-center-mob">
-						<div class="phone-no" style="padding-top: 15px;padding-bottom: 10px;"><a href="tel:0986855999" style="padding-bottom: 10px;"><i class="fa fa-phone"></i>0986855999</a></div>
+						<div class="phone-no" style="padding-top: 15px;padding-bottom: 10px;"><a href="tel:0968.846.686" style="padding-bottom: 10px;"><i class="fa fa-phone"></i>0986855999</a></div>
 					</div>
                     <div class="col-sm-1">
                         <nav class="navbar navbar-expand-md navbar-light bg-white">
