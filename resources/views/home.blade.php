@@ -38,6 +38,9 @@
                 
             </table>
         @endif
+        @if(!isset($code) && isset($serial))
+            <h4 style="color:orange;font-weight:bold;text-align:center">Serial không đúng hoặc không tồn tại</h4>
+        @endif
 </div>
 
 </div>

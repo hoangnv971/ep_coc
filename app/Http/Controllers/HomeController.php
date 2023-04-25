@@ -13,7 +13,7 @@ class HomeController extends Controller
         if(isset($request->s)){
             $serial = $request->s;
             $code = Code::where('serial', $serial)->first();
-            return view('home', compact('code'));
+            return view('home', compact('code', 'serial'));
         }
         return view('home');
     }
