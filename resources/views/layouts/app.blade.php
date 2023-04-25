@@ -7,8 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <title>CÔNG TY TNHH THƯƠNG MẠI ĐÚC VÀ ÉP CỌC BÊ TÔNG THĂNG LONG 886 – Chuyên phá dỡ, đào móng công trình nhà ở</title>
+    
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 

@@ -21,6 +21,7 @@ class CreateCodesTable extends Migration
             $table->string('coc');
             $table->string('thep_chu');
             $table->string('mac_be_tong');
+            $table->string('so_lo');
             $table->timestamps();
         });
 

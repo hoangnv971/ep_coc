@@ -11,15 +11,21 @@
             font-family: roboto-black;
             src: url('/font/roboto/Roboto-Black.tff');
         }
-
+        .container{
+            padding-top: 33px;
+        }
         .box-list{
             justify-content: space-between;
             font-size: 5px;
             font-family: DejaVu Sans, sans-serif;
-            display: -webkit-box; /* wkhtmltopdf uses this one */
             display: inline-table;
-            -webkit-box-pack: center; /* wkhtmltopdf uses this one */
             justify-content: center;
+            padding: 10px 7px 10px 2px;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+        }
+        .box-list:nth-child(3n + 0){
+            border-right: unset;
         }
         .box-card{
             background-image: url('{{public_path("/images/background_img.png")}}');
@@ -30,6 +36,8 @@
             color:white;
             text-align: center;
             background-position: center;
+            border: 1px solid #002D86;
+            border-radius: 2px; 
         }
         .box-header{
             padding: 0px 7px 0;
