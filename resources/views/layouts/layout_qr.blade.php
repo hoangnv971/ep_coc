@@ -15,10 +15,10 @@
         </div>
         <div class="box-body z-index">
             <div class="image-left qr-code">
-                <a href="{{ config('app.url').'?s='.($code->serial ?? '') }}">
+                <a href="https://thanglong886.vn/">
                     <img width="50" src="data:image/png;base64, {!! base64_encode(QrCode::format('png')->merge($logoPath ?? '', 0.3, true)
                     ->size(200)->errorCorrection('H')
-                    ->generate(config('app.url').'?s='.($code->serial ?? ''))) !!} ">
+                    ->generate('https://thanglong886.vn/')) !!} ">
                 </a>
             </div>
             <div class="image-right qr-code">
