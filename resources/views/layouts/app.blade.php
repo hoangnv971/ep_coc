@@ -28,7 +28,7 @@
 						<div class="logo"><a href="{{asset('/')}}"><img src="/images/logo-512x512px.png" alt="logo" height="100" style="padding-top: 3px"></a></div>
 					</div>
 					<div class="col-sm-6 d-flex align-items-center justify-content-end text-end">
-						<div class="phone-no" style="padding-top: 15px;padding-bottom: 10px;"><a href="tel:0968.846.686" style="padding-bottom: 10px;"><i class="fa fa-phone"></i>0986855999</a></div>
+						<div class="phone-no" style="padding-top: 15px;padding-bottom: 10px;"><a href="tel:0968.846.686" style="padding-bottom: 10px;"><i class="fa fa-phone"></i>0968.846.686</a></div>
 					</div>
 				</div>
 			</div>
@@ -42,10 +42,10 @@
 				<div class="row">
 					<div class="col-md-12 text-center social-icons text-center-tab">
 						<ul> 
-						<li><b><u>CÔNG TY TNHH ĐÚC VÀ ÉP CỌC BÊ TÔNG THĂNG LONG</u></b></li>
-						<br><li><b>Website:</b> <a href="https://cocbetongthanglong.vn/">https://cocbetongthanglong.vn</a></li>
-						<br><li><b>Điện thoại:</b> <a href="https://xacthuc.cocbetongthanglong.vn/s.aspx?s=2982405502454#">0986855999</a></li>
-						<br><li>© Copyright <a href="https://cocbetongthanglong.vn/" style="color:white;font-weight:bold">CỌC BÊ TÔNG THĂNG LONG - Xác thực điện tử 24/7</a></li>
+						<li><b><u>CÔNG TY TNHH THƯƠNG MẠI ĐÚC VÀ ÉP CỌC BÊ TÔNG THĂNG LONG 886</u></b></li>
+						<br><li><b>Website:</b> <a href="https://thanglong886.vn/">https://thanglong886.vn/</a></li>
+						<br><li><b>Điện thoại:</b> <a href="tel:0968.846.686">0968.846.686</a></li>
+						<br><li>© Copyright <a href="https://thanglong886.vn/" style="color:white;font-weight:bold">CỌC BÊ TÔNG THĂNG LONG 886 - Xác thực điện tử 24/7</a></li>
 						</ul>
 					</div>
 				</div>
