@@ -69,7 +69,7 @@ class CreateCodesCommand extends Command
             $this->info('End!');
         }else{
             $this->info('');
-            $this->info('php artisan create:qrcode --so-luong='.($total ?? '00').' --thep-chu='.$data['thep_chu'].' --coc='.$data['coc'].' --mac-be-tong='.$data['mac_be_tong'].' --so-lo='.$data['so_lo']);
+            $this->info('php artisan create:qrcode --so-luong='.($total ?? '00').' --thep-chu='.$data['thep_chu'].' --coc='.$data['coc'].' --mac-be-tong='.$data['mac_be_tong']);
             $this->info('');
         }
 
