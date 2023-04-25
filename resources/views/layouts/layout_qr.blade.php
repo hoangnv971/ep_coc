@@ -2,15 +2,18 @@
 @if(isset($code))
 <div class="box-list">
     <div class="box-card">
-        <div class="box-header">
+        <div class="background">
+            <img src="{{public_path("/images/background_img.png")}}" width="219" height="175" alt="">
+        </div>
+        <div class="box-header z-index">
             <h3>CÔNG TY TNHH THƯƠNG MẠI ĐÚC VÀ ÉP CỌC BÊ TÔNG THĂNG LONG 886</h3>
             <p class="address">Xưởng sản xuất lô A2.7, KĐT Thanh Hà B, Cienco 5, Cự Khê, Thanh Oai, Hà Nội</p>
             <p class="tax-number">Mã số thuế: 0107616553</p>
         </div>
-        <div class="before-body">
+        <div class="before-body z-index">
             TEM XÁC THỰC HÀNG CHÍNH HÃNG
         </div>
-        <div class="box-body">
+        <div class="box-body z-index">
             <div class="image-left qr-code">
                 <a href="{{ config('app.url').'?s='.($code->serial ?? '') }}">
                     <img width="50" src="data:image/png;base64, {!! base64_encode(QrCode::format('png')->merge($logoPath ?? '', 0.3, true)
@@ -25,7 +28,7 @@
                 </a>
             </div>
         </div>
-        <div class="box-footer">
+        <div class="box-footer z-index">
             <div class="quotes">CỌC BÊ TÔNG CỐT THÉP ĐÚC SẴN</div>
             <div class="information">
                 <div class="info-left info-detail">

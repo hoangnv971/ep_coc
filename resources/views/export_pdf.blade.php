@@ -28,9 +28,6 @@
             border-right: unset;
         }
         .box-card{
-            background-image: url('{{public_path("/images/background_img.png")}}');
-            background-repeat: no-repeat;
-            background-size: cover;
             width: 219px;
             height: 175px;   
             color:white;
@@ -38,10 +35,23 @@
             background-position: center;
             border: 1px solid #002D86;
             border-radius: 2px; 
+            position: relative;
+            z-index: 1;
+        }
+        .background{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
         }
         .box-header{
             padding: 0px 7px 0;
             margin-top: 5px;
+        }
+        .z-index{
+            z-index: 10;
         }
         .box-header h3{
             font-weight: bold;
