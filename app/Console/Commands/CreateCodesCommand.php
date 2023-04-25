@@ -53,7 +53,7 @@ class CreateCodesCommand extends Command
             $data['serial'] = rand(1000,9999).substr(time(), 4, -1).rand(1000,9999);
             $code = Code::create($data);
             $codeMaxId = Code::where('so_lo', $data['so_lo'])->whereNotNull('code_id')->orderBy('id', 'desc')->first();
-            $maxId = (int) str_replace($data['so_lo'].' - ', '',$codeMaxId->code_id);
+            $maxId = (int) str_replace($data['so_lo'].' - ', '', $codeMaxId->code_id ?? 0);
             $code_id = $dateFomated.' - '. sprintf("%05d", $maxId +1);
             $code->update(['code_id' => $code_id]);
             $listCodes[] = $code;
