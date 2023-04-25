@@ -54,7 +54,7 @@ class CreateCodesCommand extends Command
             $code = Code::create($data);
             $codeMaxId = Code::where('so_lo', $data['so_lo'])->whereNotNull('code_id')->orderBy('id', 'desc')->first();
             // $maxId = (int) str_replace($data['so_lo'].' - ', '', $codeMaxId->code_id ?? 0);
-            $code_id = $dateFomated.' - '. sprintf("%05d", $codeMaxId->code_id);
+            $code_id = $dateFomated.' - '. sprintf("%05d", $codeMaxId->id);
             $code->update(['code_id' => $code_id]);
             $listCodes[] = $code;
             $this->info($i.'.'.($code->code_id ?? '').' created!');
