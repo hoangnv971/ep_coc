@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="box-footer z-index">
-            <div class="quotes"><span style="color:red">CỌC BÊ TÔNG CỐT THÉP ĐÚC SẴN</span></div>
+            <div class="quotes"><span style="color:white">CỌC BÊ TÔNG CỐT THÉP ĐÚC SẴN</span></div>
             <div class="information">
                 <div class="info-left info-detail">
                     <p>ID: {{$code->code_id ?? ''}} </p>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="info-right info-detail">
                     <p>Cọc: {{$code->coc ?? ''}}</p>
-                    <p>Thép: {{$code->thep_chu ?? ''}}</p>
+                    <p>{{$code->thep_chu ?? ''}}</p>
                     <p>Mác bê tông: {{$code->mac_be_tong ?? ''}}</p>
                 </div>
             </div>
