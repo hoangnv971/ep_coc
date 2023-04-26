@@ -111,7 +111,7 @@
             color: #002D86;
             text-align: left;
             font-weight: bold;
-            margin-top:3px;
+            margin-top:2x;
         }
         .info-detail{
             padding-left: 12px;
