@@ -8,7 +8,7 @@
 
     <style>
         @page { margin: 0px; }
-        body { margin: 8px 24px }
+        body { margin: 8px 29px }
         @font-face {
             font-family: roboto-black;
             src: url('/font/roboto/Roboto-Black.tff');
