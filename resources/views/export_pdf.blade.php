@@ -74,25 +74,37 @@
             font-weight: bold;
         }
         .box-body .qr-code{
-            margin: 9px 13px 0px;
+            margin-left:13px;
+            margin-right: 13px;
         }
         .box-body .qr-code a{
             display: block;
         }
         .box-body .qr-code.image-left{
             float: left;
+            margin-top:9px; 
         }
-
+        .box-body .qr-code.image-left .qr-text{
+            color:black;
+            font-weight: bold;
+            font-size: 7px;
+            text-align: center;
+        }
         .box-body .qr-code.image-right{
             float: right;
+            margin-top:9px;
+        }
+
+        .box-body .qr-code.image-right a{
+            padding: 3px;
+            background: #fff;
         }
         .box-footer{
-            padding-top: 6px;
+            padding-top: 5px;
             clear: both;
         }
         .box-footer .quotes{
             font-weight: bold;
-            padding-top: 2px;
         }
         .box-card .information{
             color: #002D86;

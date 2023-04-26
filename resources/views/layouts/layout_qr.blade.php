@@ -16,13 +16,14 @@
         <div class="box-body z-index">
             <div class="image-left qr-code">
                 <a href="{{ config('app.url').'?s='.($code->serial ?? '') }}">
-                    <img width="50" src="data:image/png;base64, {{base64_encode(QrCode::format('png')->size(200)->errorCorrection('H')
+                    <img width="42" src="data:image/png;base64, {{base64_encode(QrCode::format('png')->size(200)->errorCorrection('H')
                     ->generate(config('app.url').'?s='.($code->serial ?? '')))}}" alt="">
                 </a>
+                <div class="qr-text">QR Tra cứu</div>
             </div>
             <div class="image-right qr-code">
                 <a href="https://thanglong886.vn/">
-                    <img width="50" src="data:image/png;base64, {!! base64_encode(QrCode::format('png')->merge($logoPath ?? '', 0.3, true)
+                    <img width="45" src="data:image/png;base64, {!! base64_encode(QrCode::format('png')->merge($logoPath ?? '', 0.3, true)
                     ->size(200)->errorCorrection('H')
                     ->generate('https://thanglong886.vn/')) !!} ">
                 </a>
