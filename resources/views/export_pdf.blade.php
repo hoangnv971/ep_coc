@@ -122,6 +122,7 @@
         }
         .info-right{
             padding-right: 12px;
+            margin-left: -12px; 
         }
 
         .info-detail p{
