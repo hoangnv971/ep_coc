@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\File; 
 
 class CreateCodesTable extends Migration
 {
@@ -24,7 +25,7 @@ class CreateCodesTable extends Migration
             $table->string('so_lo');
             $table->timestamps();
         });
-
+        File::deleteDirectory(public_path('files'));
         \App\Models\User::factory(1)->create();
     }
 

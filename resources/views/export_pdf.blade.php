@@ -73,11 +73,8 @@
             font-size: 8px;
             font-weight: bold;
         }
-        .box-body{
-        }
-
         .box-body .qr-code{
-            margin: 10px 13px 0px;
+            margin: 9px 13px 0px;
         }
         .box-body .qr-code a{
             display: block;
@@ -95,7 +92,7 @@
         }
         .box-footer .quotes{
             font-weight: bold;
-            padding-top: 3px;
+            padding-top: 2px;
         }
         .box-card .information{
             color: #002D86;

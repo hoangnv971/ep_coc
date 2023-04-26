@@ -48,13 +48,13 @@ class CreateCodesCommand extends Command
         $total = $options['so-luong'] ?? 0;
         $data['so_lo'] = $options['so-lo'] ?? $dateFomated;
         $logoPath = public_path('/images/logo.jpg');
+        $totalRecord = Code::count();
         for($i = 1; $i <= $total; $i++)
         {
             $data['serial'] = rand(1000,9999).substr(time(), 4, -1).rand(1000,9999);
             $code = Code::create($data);
-            // $codeMaxId = Code::where('so_lo', $data['so_lo'])->whereNotNull('code_id')->orderBy('id', 'desc')->first();
-            // $maxId = (int) str_replace($data['so_lo'].' - ', '', $codeMaxId->code_id ?? 0);
-            $code_id = $dateFomated.' - '. sprintf("%05d", $code->id);
+            $totalRecord +=1;
+            $code_id = $dateFomated.' - '. sprintf("%05d", $totalRecord);
             $code->update(['code_id' => $code_id]);
             $listCodes[] = $code;
             $this->info($i.'.'.($code->code_id ?? '').' created!');
