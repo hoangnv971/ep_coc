@@ -64,7 +64,7 @@ class CreateCodesCommand extends Command
             $this->info('Exporting pdf file');
             Pdf::setOption(['dpi' => 150, 'defaultFont' => 'sans-serif']);
             $this->info('...');
-            Pdf::loadView('export_pdf', compact('listCodes', 'logoPath'))->setPaper('A4')->save($fileName, 'local');
+            Pdf::loadView('export_pdf', compact('listCodes', 'logoPath'))->setPaper('A8', 'landscape')->save($fileName, 'local');
             $this->info(config('app.url').'/'.$fileName);
             $this->info('End!');
         }else{
