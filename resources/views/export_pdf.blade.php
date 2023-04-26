@@ -85,7 +85,7 @@
             margin-top:9px; 
         }
         .box-body .qr-code.image-left .qr-text{
-            color:black;
+            color:red;
             font-weight: bold;
             font-size: 7px;
             text-align: center;
@@ -100,11 +100,12 @@
             background: #fff;
         }
         .box-footer{
-            padding-top: 5px;
+            padding-top: 3px;
             clear: both;
         }
         .box-footer .quotes{
             font-weight: bold;
+            font-size: 8px;
         }
         .box-card .information{
             color: #002D86;
