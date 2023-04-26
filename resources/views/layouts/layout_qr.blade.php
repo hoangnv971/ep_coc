@@ -39,7 +39,7 @@
                 </div>
                 <div class="info-right info-detail">
                     <p>Cọc: {{$code->coc ?? ''}}</p>
-                    <p>Thép chủ: {{$code->thep_chu ?? ''}}</p>
+                    <p>Thép: {{$code->thep_chu ?? ''}}</p>
                     <p>Mác bê tông: {{$code->mac_be_tong ?? ''}}</p>
                 </div>
             </div>

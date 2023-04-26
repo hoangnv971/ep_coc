@@ -114,8 +114,14 @@
             margin-top:2x;
         }
         .info-detail{
-            padding-left: 12px;
             float: left;
+            width: 50%;
+        }
+        .info-left{
+            padding-left: 12px;
+        }
+        .info-right{
+            padding-right: 12px;
         }
 
         .info-detail p{
