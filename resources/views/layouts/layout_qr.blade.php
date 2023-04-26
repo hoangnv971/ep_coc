@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="box-footer z-index">
-            <div class="quotes"><span style="color:white">CỌC BÊ TÔNG CỐT THÉP ĐÚC SẴN</span></div>
+            <div class="quotes"><span style="color:red">CỌC BÊ TÔNG CỐT THÉP ĐÚC SẴN</span></div>
             <div class="information">
                 <div class="info-left info-detail">
                     <p>ID: {{$code->code_id ?? ''}} </p>
