@@ -8,7 +8,7 @@
 
     <style>
         @page { margin: 0px; }
-        body { margin: 8px 29px }
+        body { margin: 8px }
         @font-face {
             font-family: roboto-black;
             src: url('/font/roboto/Roboto-Black.tff');
@@ -18,7 +18,8 @@
             font-family: DejaVu Sans, sans-serif;
             display: inline-table;
             justify-content: center;
-
+            width: 219px;
+            margin: auto;
         }
 
         .box-card{
